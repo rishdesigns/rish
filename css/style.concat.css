@@ -456,7 +456,7 @@ nav ul {
   border-bottom: none; }
 
 #particles-js {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/coding.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://res.cloudinary.com/rishdesigns/image/upload/v1555788673/Coding.jpg);
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
