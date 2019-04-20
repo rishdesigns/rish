@@ -1,0 +1,42 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+html {
+  /*This desifnes what 1 rem is*/
+  font-size: 62.5%; //10PX
+  /*
+  100% = 16px;
+  10px/16px(which is default size)=0.625
+  100% * 0.625 = 62.5%
+  1 rem = 10px now (We used it first for setting rem units instead of px in our elements)
+  .625*16 (i.e default font size ix px) = 10
+  */
+}
+
+
+body {
+  box-sizing: border-box;
+}
+
+/*---------------------------------------------------------------------*/
+/* REUSABLE COMPONENTS---------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+.row {
+    max-width: 114rem;
+    margin: 0 auto;
+    /*For centering elements right and left is auto*/
+}
+
+section{
+  padding:8rem 0;
+}
+
+.box{
+  padding: 1%;
+}

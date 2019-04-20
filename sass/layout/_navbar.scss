@@ -1,0 +1,90 @@
+
+/*---------------------------------------------------------------------*/
+/* LOGO AND NAVBAR---------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+
+
+
+nav {
+    position: fixed;
+    /*VERY IMPORTANT OTHERWISE Z-INDEX WILL NOT WORK*/
+    top: 0;
+    left: 0;
+    padding: 0 10rem;
+    width: 100%;
+    height: 8rem;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: rgba(255, 255, 255, .2);
+    -webkit-box-shadow: 0 5px 1.5rem rgba($color-black, .2);
+    box-shadow: 0 5px 1.5rem rgba($color-black, .2);
+    -webkit-transition: .5s;
+    transition: .5s;
+    z-index: 133;
+    /*In responsive menu everything will go below navbar*/
+}
+
+
+nav.black {
+    background: rgba($color-black, 0.8);
+}
+
+
+.logo {
+    height: 5rem;
+    width: auto;
+    float: left;
+    margin-top: 2rem;
+}
+
+nav ul {
+
+    margin: 0;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    float: right;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.main-nav li {
+    list-style: none;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+
+    display: block;
+    padding: 1rem 2rem;
+    margin: 2rem 0;
+    color: $color-white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    -webkit-transition: border-bottom 0.5sec;
+    transition: border-bottom 0.5sec;
+}
+
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid $color-primary;
+}
+
+.toggle {
+    /*MENU BUTTON*/
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 26px;
+    padding: 5px;
+    cursor: pointer;
+    background: $color-primary;
+    border-radius: 200px;
+
+}
+
+

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- SEO Meta Tag -->
+  <meta content="Web Designer Kanpur, Kanpur web development company, Website designing company kanpur, web developer kanpur, best web design company in kanpur, ui designer kanpur, Rish designs kanpur, rish designs, rishabh saxena kanpur graphic designing company kanpur, seo company in kanpur, best web designer in kanpur, best web developer in kanpur, best web designing company in kanpur, Kanpur web registration, Kanpur web designing institute, kanpur web design cost"
+    name="keywords" />
+  <meta content="Rish Designs is a proficient web development and graphic designing company based in Kanpur, India." name="description" />
+  <meta content='index,follow' name='robots' />
+  <meta content='general' name='rating' />
+
+  <!--OG -->
+  <link rel="canonical" href="http://www.rishdesigns.com/" />
+  <meta property="og:title" content="Rish Designs, web designer kanpur, web development company kanpur">
+  <meta property="og:site_name" content="Rish Designs">
+  <meta property="og:url" content="https://www.rishdesigns.com/">
+  <meta property="og:description" content="Rish Designs is a proficient web development and graphic designing company based in Kanpur, India.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://res.cloudinary.com/rishdesigns/image/upload/v1555704445/RISH_DESIGNS.png">
+  <meta property="og:image" content="https://res.cloudinary.com/rishdesigns/image/upload/v1555704597/RISH_DESIGNS_2.png">
+
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+  <link rel="manifest" href="images/site.webmanifest">
+
+  <title>Rish Designs</title>
+
+
+  <!--EXTERNAL CSS-->
+  <link href="external/css/normalize.css" type="text/css" rel="stylesheet">
+  <link href="external/css/grid.css" type="text/css" rel="stylesheet">
+  <link href="external/css/ionicons.min.css" type="text/css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+
+
+  <!--MAIN CSS-->
+
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <link href="css/queries.css" rel="stylesheet" type="text/css">
+
+  <!--GOOGLE FONTS-->
+
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400" rel="stylesheet">
+  <!--SCRIPTS-->
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script>
+
+
+  <!--F0R RESPONSIVE MENU-->
+
+  <script>
+    $(document).ready(function() {
+      $('.toggle').click(function() {
+        $('ul').toggleClass('active');
+
+      })
+    })
+
+
+    // Scrolling Effect
+
+    $(window).on("scroll", function() {
+      if ($(window).scrollTop()) {
+        $('nav').addClass('black');
+      } else {
+        $('nav').removeClass('black');
+      }
+    })
+  </script>
+
+  <!--Smooth scrolling-->
+
+  <script>
+    $(document).ready(function() {
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+
+
+</head>
+
+<body>
+
+  <!--HEADER-->
+  <header>
+    <nav>
+      <div class="row">
+
+        <a href="#"><img src="images/Rishwhite.png" alt="Rish Designs Logo" class="logo"></a>
+        <a class="toggle">MENU</a>
+        <ul class="main-nav">
+          <li><a href="#skills_nav">Skills</a></li>
+          <li><a href="https://www.gitshowcase.com/officialrishabh" target="_blank">Portfolio</a></li>
+          <li><a href="https://www.behance.net/rish_designs" target="_blank">UI/UX </a></li>
+          <li><a href="#">Blog </a></li>
+        </ul>
+
+      </div>
+    </nav>
+
+    <!--TEXT BOX-->
+    <div id="text-box">
+      <h1>Hey my name is Rishabh!</h1>
+      <p>I am a <span class="auto-type"></span></p>
+      <!--HEADER BUTTONS-->
+      <a class="btn btn-full" href="https://www.facebook.com/rishabh.saxena.988" target="_blank">Contact Me </a>
+      <a class="btn btn-ghost" href="#me">More About Me </a>
+    </div>
+
+  </header>
+  <main>
+    <!--SECTION ABOUT ME-->
+    <section class="about-me" id="me">
+      <div class="row">
+        <h2>Who Am I?</h2>
+        <p class="long-text">My name's Rishabh Saxena. I'm a web designer and developer based in India. I love to code from scratch and bring ideas to life. You can contact me <a href="https://www.facebook.com/rishabh.saxena.988" target="_blank">here</a>.</p>
+      </div>
+
+      <div class="row js--wp-1">
+        <div class="col span-1-of-3 box">
+          <i class="ion-code-working icon-big"></i>
+          <h3>Front-end Developer</h3>
+          <p>
+            I use HTML, CSS, and JavaScript and some powerful frameworks to code the website and web app designs created by web designers.
+          </p>
+        </div>
+
+        <div class="col span-1-of-3 box">
+          <i class="ion-edit icon-big"></i>
+          <h3>UI/UX Designer</h3>
+          <p>
+            I love designing User Interface then enhancing user satisfaction through User Experience Design.
+          </p>
+        </div>
+
+        <div class="col span-1-of-3 box">
+          <i class="ion-android-laptop icon-big"></i>
+          <h3>Graphic Designer</h3>
+          <p>
+            I also make Logos, Magazine Cover Design, Matte Painting, Digital Posters and more using the best tools out there.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!--SECTION SKILLS BAR-->
+
+    <section class="skills_bar" id="skills_nav">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          My Skills
+        </h2>
+      </div>
+      <div class="row">
+
+
+        <div class="col span-1-of-2 box">
+          <div class="skills">
+            <ul>
+              <li>
+                <h3>Web Development</h3><span class="bar"><span class="html"></span></span>
+              </li>
+
+              <li>
+                <h3>UI/UX</h3><span class="bar"><span class="css"></span></span>
+              </li>
+
+              <li>
+                <h3>Graphic Designing</h3><span class="bar"><span class="javascript"></span></span>
+              </li>
+
+              <li>
+                <h3>SEO</h3><span class="bar"><span class="php"></span></span>
+              </li>
+
+              <li>
+                <h3>Video Editing</h3><span class="bar"><span class="mysql"></span></span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="col span-1-of-2 box">
+          <div class="skills__two">
+            <img src="images/html.png" alt="Rish Design" class="cartoon-boy">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--SECTION COUNTER UP-->
+
+    <section class="counter_up">
+      <div class="u-center-text u-margin-bottom-small">
+        <h2 id="heading">
+          Consistency is the key
+        </h2>
+      </div>
+
+      <div class="row">
+        <div class="counting-sec">
+          <div class="inner-width">
+
+            <div class="col span-1-of-4 box cp">
+              <i class="fas fa-clock"></i>
+              <div class="counter">1000</div>
+              Hours worked
+            </div>
+
+            <div class="col span-1-of-4 box cp">
+              <i class="fas fa-laptop-code"></i>
+              <div class="counter">10000</div>
+              Lines of codes
+            </div>
+
+            <div class="col span-1-of-4 box cp">
+              <i class="fas fa-coffee"></i>
+              <div class="counter">500</div>
+              Cups of Coffee
+            </div>
+
+            <div class="col span-1-of-4 box cp">
+              <i class="fas fa-certificate"></i>
+              <div class="counter">10</div>
+              Certificates
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <div id="particles-js">
+
+    </div>
+
+
+    <footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Rish<span>Designs</span></h3>
+
+
+        <p class="footer-links">
+          <a href="#me">About Me</a>
+          ·
+          <a href="#">Blog</a>
+          ·
+          <a href="https://www.facebook.com/groups/coderhub/" target="_blank">Coders Hub</a>
+          ·
+          <a href="#">Sitemap</a>
+        </p>
+
+        <p class="footer-company-name">Rishabh Saxena &copy; 2019</p>
+      </div>
+
+      <div class="footer-center">
+
+
+        <a href="https://www.youracclaim.com/badges/0e190e9f-c9e4-41dd-a8ab-6a581e44627d/embedded" target="_blank"><img src="images/ACA.jpg" alt="Rish Designs Adobe Certificate" class="aca"></a>
+
+
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the company</span>
+          Rish Designs is a proficient web development and graphic designing company based in India.
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="https://www.facebook.com/rishabh.saxena.988" target="_blank"><i class="ion-social-facebook"></i></a>
+          <a href="https://www.gitshowcase.com/officialrishabh" target="_blank"><i class="ion-social-github"></i></a>
+          <a href="https://www.instagram.com/rish_designs/" target="_blank"><i class="ion-social-instagram"></i></a>
+          <a href="https://dribbble.com/rish_designs" target="_blank"><i class="ion-social-dribbble"></i></a>
+
+
+        </div>
+
+      </div>
+
+    </footer>
+
+  </main>
+
+
+
+
+
+
+  <!--FOR AUTOTYPING-->
+  <script src="external/js/typed.js"></script>
+  <script>
+    var typed = new Typed(".auto-type", {
+      // Waits 1000ms after typing "First"
+      strings: ["Web Developer", "UI/UX Designer", "JavaScript Programmer", "Graphic Designer"],
+      typeSpeed: 150,
+      backSpeed: 100,
+      loop: true
+
+    });
+  </script>
+  <!--FOR PLEXUS-->
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS.load('particles-js', 'particles.json', function() {
+      console.log('particles.json loaded...')
+    })
+  </script>
+
+  <!--FOR COUNTER-UP-->
+  <script src="external/js/jquery.counterup.min.js"></script>
+  <script>
+    jQuery(document).ready(function($) {
+      $('.counter').counterUp({
+        delay: 10,
+        time: 1000,
+        offset: 70,
+        formatter: function(n) {
+          return n.replace(/,/g, '.');
+        }
+      });
+    });
+  </script>
+
+</body>
+
+</html>

@@ -1,0 +1,24 @@
+/*---------------------------------------------------------------------*/
+/* ICONS---------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+
+.icon-big{
+  display: block;
+  font-size: 350%;
+  color: $color-primary;
+  margin-bottom: 10px;
+}
+
+.icon-small{
+  display: inline-block;
+  width: 3rem;
+  text-align: center;
+  color: $color-primary;
+  font-size: 120%;
+  margin-right: 10px;
+
+  /*SECRETS TO ALIGN TEXT AND ICONS*/
+  line-height: 120%;
+  vertical-align: middle;
+  /*margin-top:-2px; /*Negative margin takes space away*/
+}

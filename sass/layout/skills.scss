@@ -1,0 +1,72 @@
+.skills_bar {
+  background-color: #2d3436;
+  background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+  position: relative;
+}
+
+.skills {
+  color: #fff;
+}
+
+.skills li {
+  margin: 30px auto;
+  list-style: none;
+}
+
+.bar {
+  background: $color-primary-light;
+  display: block;
+  height: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  overflow: hidden;
+  box-shadow: 0 0 10px $color-primary;
+}
+
+.bar span {
+  height: 10px;
+  float: left;
+  background: $color-primary-dark;
+}
+/*SKILLS BAR PERCENTAGE*/
+.html {
+  width: 90%;
+  animation: html 2s;
+}
+
+.css {
+  width: 80%;
+  animation: css 2s;
+}
+
+.javascript {
+  width: 65%;
+  animation: javascript 2s;
+}
+
+.php {
+  width: 70%;
+  animation: php 2s;
+}
+
+.mysql {
+  width: 60%;
+  animation: mysql 2s;
+}
+
+
+
+//SKILLS PART TWO
+.skills__two {
+  color: $color-white;
+  margin-top: 3rem;
+}
+
+.skills__two img{
+  width: 100%;
+  height: auto;
+}
+
+.skills__two a{
+  border-bottom: none;
+}

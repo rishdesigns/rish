@@ -1,0 +1,59 @@
+body {
+  color: $color-white;
+  font-size: 2rem;
+  font-family: 'Lato', 'Arial', sans-serif;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+
+/*---------------------------------------------------------------------*/
+/* HEADINGS---------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+
+h2,
+h3{
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+
+h2{
+  font-size: 180%;
+  word-spacing: 2px;
+  text-align: center;
+  margin-bottom: 3rem;
+  letter-spacing: 1px;
+
+}
+
+h3{
+  font-size: 110%;
+  margin-bottom: 15px;
+}
+
+h2::after{
+  display: block;
+  height: 2px;
+  background-color: $color-primary;
+  content: " "; /*This is very important without this [after] will not work. We don't have any content so we just gave space*/
+  width: 10rem;
+  margin: 0 auto;
+  margin-top: 3rem;
+}
+
+
+/*---------------------------------------------------------------------*/
+/* PARAGRAPHS---------------------------------------------------------*/
+/*---------------------------------------------------------------------*/
+
+.long-text{
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+}
+
+.box p{
+  font-size: 90%;
+  line-height: 145%;
+}
