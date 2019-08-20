@@ -83,20 +83,7 @@
   background-position: center;
   background-attachment: fixed;
 }
-.mapouter {
-  position: relative;
-  text-align: right;
-  height: 500px;
-  max-width: 100%;
-  margin-right: 40px;
-}
 
-.gmap_canvas {
-  overflow: hidden;
-  background: none !important;
-  height: 500px;
-  max-width: 100%;
-}
 
 /*Contact*/
 .contactboxservice{
