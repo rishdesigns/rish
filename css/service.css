@@ -88,6 +88,7 @@
   text-align: right;
   height: 500px;
   max-width: 100%;
+  margin-right: 40px;
 }
 
 .gmap_canvas {
