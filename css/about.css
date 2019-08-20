@@ -1,0 +1,81 @@
+.about {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/about.jpg);
+    background-image: linear-gradient(rgba($color-black, 0.7), rgba($color-black, 0.7)), url(https://res.cloudinary.com/rishdesigns/image/upload/v1555789374/bg.jpg);
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#intropara{
+  line-height: 1.6;
+}
+
+#text{
+
+      position: absolute;
+      top: 25%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
+
+
+}
+
+#text h1 {
+    font-size: 350%;
+    /*Relative size for responsivness our base size is 20px(defined in html tag above ) so if 100% = 20px then 400% = 80px*/
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    display: inline;
+
+}
+
+#about h2{
+  color: #777;
+}
+
+#about p{
+  color: #777;
+}
+
+.abt h3{
+  color: #777;
+}
+
+/*Contact Us*/
+
+.contactus{
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/contactbg.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contactus p{
+  font-size: 24px;
+
+}
+.contactbox{
+    text-align: center;
+    padding: 2rem;
+    color: #555;
+}
+
+.contactbox i{
+    font-size: 4rem;
+    color: #ffffff;
+}
+
+.counter{
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.tc{
+  color: #ffffff;
+}
