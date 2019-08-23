@@ -190,6 +190,7 @@ Projects Slider
   padding-top: 10vh;
   height: 100%;
   overflow-y: auto;
+  padding-right: 40px; /*To make images in middle in mobile*/
 }
 .projects-visible .cd-slider {
   /* smooth scrolling on iOS */
@@ -832,3 +833,4 @@ footer {
 #footerlink{
   color: #fff;
 }
+v
