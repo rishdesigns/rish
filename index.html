@@ -392,6 +392,15 @@
     });
   </script>
 
+  <!--Disable right click on image-->
+ <script>
+(function($){
+ $(document).on('contextmenu', 'img', function() {
+     return false;
+ })
+})(jQuery);
+</script>
+
 </body>
 
 </html>
