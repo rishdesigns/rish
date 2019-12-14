@@ -9,27 +9,37 @@
 
 <url>
   <loc>https://rishdesigns.com/</loc>
-  <lastmod>2019-08-20T17:19:17+00:00</lastmod>
+  <lastmod>2019-12-14T04:59:52+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://rishdesigns.com/index.html</loc>
-  <lastmod>2019-08-20T17:19:17+00:00</lastmod>
+  <lastmod>2019-12-14T04:59:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rishdesigns.com/about.html</loc>
-  <lastmod>2019-08-20T17:19:17+00:00</lastmod>
+  <lastmod>2019-12-14T04:59:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://rishdesigns.com/services.html</loc>
-  <lastmod>2019-08-20T17:19:17+00:00</lastmod>
+  <lastmod>2019-12-14T04:59:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://rishdesigns.com/project.html</loc>
-  <lastmod>2019-08-20T17:19:17+00:00</lastmod>
+  <loc>https://rishdesigns.com/projects.html</loc>
+  <lastmod>2019-12-14T04:59:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rishdesigns.com/testimonials.html</loc>
+  <lastmod>2019-12-14T04:59:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://rishdesigns.com/graphic_designing.html</loc>
+  <lastmod>2019-12-14T04:59:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 
