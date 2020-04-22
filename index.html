@@ -282,7 +282,7 @@
 
         <div class="col span-1-of-2 box">
           <div class="skills__two your-element">
-            <img src="images/html.png" alt="Rish Design" class="cartoon-boy">
+            <img class="lazyload" data-src="images/html.png" alt="Rish Design" class="cartoon-boy">
           </div>
         </div>
       </div>
@@ -360,7 +360,7 @@
 
 
         <a href="https://www.youracclaim.com/badges/0e190e9f-c9e4-41dd-a8ab-6a581e44627d/embedded" target="_blank"><img
-            src="images/ACA.jpg" alt="Rish Designs Adobe Certificate" class="aca"></a>
+            data-src="images/ACA.jpg" alt="Rish Designs Adobe Certificate" class="aca lazyload"></a>
 
 
 
@@ -398,6 +398,8 @@
 
 
 
+  <!--LAZYLOADING-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.2.0/lazysizes.min.js"></script>
 
 
   <!--FOR AUTOTYPING-->
@@ -447,6 +449,7 @@
     //It also supports NodeList
     VanillaTilt.init(document.querySelectorAll(".your-element"));
   </script>
+
 
   <!--Disable right click on image-->
   <script>
